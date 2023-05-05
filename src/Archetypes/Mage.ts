@@ -11,7 +11,7 @@ export default class Mage extends Archetype {
     this._energyType = 'mana';
   }
 
-  get energyType(): EnergyType {
+  public get energyType(): EnergyType {
     return this._energyType;
   }
 

@@ -10,7 +10,7 @@ export default class Dwarf extends Race {
     this._maxLifePoints = 80;
   }
 
-  get maxLifePoints(): number {
+  public get maxLifePoints(): number {
     return this._maxLifePoints;
   }
 

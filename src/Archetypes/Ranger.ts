@@ -11,7 +11,7 @@ export default class Ranger extends Archetype {
     this._energyType = 'stamina';
   }
 
-  get energyType(): EnergyType {
+  public get energyType(): EnergyType {
     return this._energyType;
   }
 
