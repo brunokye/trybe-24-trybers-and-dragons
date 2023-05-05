@@ -10,19 +10,11 @@ export default class Halfling extends Race {
     this._maxLifePoints = 60;
   }
 
-  set name(value: string) {
-    this.name = value;
-  }
-
-  set dexterity(value: number) {
-    this.dexterity = value;
-  }
-
   get maxLifePoints(): number {
     return this._maxLifePoints;
   }
 
-  static createdRacesInstances(): number {
+  public static createdRacesInstances(): number {
     Halfling._instanceCount += 1;
     return Halfling._instanceCount;
   }

@@ -10,19 +10,11 @@ export default class Dwarf extends Race {
     this._maxLifePoints = 80;
   }
 
-  set name(value: string) {
-    this.name = value;
-  }
-
-  set dexterity(value: number) {
-    this.dexterity = value;
-  }
-
   get maxLifePoints(): number {
     return this._maxLifePoints;
   }
 
-  static createdRacesInstances(): number {
+  public static createdRacesInstances(): number {
     Dwarf._instanceCount += 1;
     return Dwarf._instanceCount;
   }
