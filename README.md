@@ -4,7 +4,7 @@ Para este projeto, você deverá aplicar os princípios da arquitetura SOLID e o
 
 ## Projeto
 
-![Print do Projeto](https://i.imgur.com/D4EJLjD.png)
+![Print do Projeto](https://i.imgur.com/RRa7knx.png)
 
 ## Executar Localmente
 
